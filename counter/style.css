@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(127, 255, 212, 0.542);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+input{
+    height: 170px;
+    width: 500px;
+    background-color: rgba(24, 99, 74, 0.307);
+    border-radius: 50px;
+    padding-left: 40px;
+    font-size: 40px;
+    font-family: fantasy;
+    color: rgb(7, 36, 27);
+}
+.base{
+    height: 600px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+p{
+    font-family: fantasy;
+    font-size: 100px;
+    padding-top: 50px;
+    height: 200px;
+}
+.result{
+    height: 560px;
+    width: 500px;
+    background-color: rgba(24, 99, 74, 0.307);
+    border-radius: 50px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border: solid rgb(86, 86, 86) 2px;
+}
+
+.letters {
+    height: 170px;
+    width: 480px;
+    background-color: rgba(13, 106, 75, 0.307);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-family: fantasy;
+    color: rgb(7, 36, 27);
+}
+.sentences {
+    height: 170px;
+    width: 480px;
+    background-color: rgba(13, 106, 75, 0.307);
+    border-radius: 50px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-family: fantasy;
+    color: rgb(7, 36, 27);
+}
+.words {
+    height: 170px;
+    width: 480px;
+    background-color: rgba(13, 106, 75, 0.307);
+    border-radius: 50px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-family: fantasy;
+    color: rgb(7, 36, 27);
+}
